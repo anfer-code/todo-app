@@ -1,0 +1,36 @@
+.Todo-Item {
+  display: flex;
+  width: 90%;
+  height: 50px;
+  margin: 0 auto 30px;
+  justify-content: center;
+  list-style: none;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px 1px #dccfcf;
+  position: relative;
+  background: #ffffff;
+  align-items: center;
+  font-weight: bold;
+}
+
+.Todo-active {
+  text-decoration: line-through;
+}
+
+.Close {
+  right: 15px;
+  top: -14px;
+}
+
+.Todo-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 40px;
+}
+
+@media (min-width: 600px) {
+  .Todo-text {
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,19 @@
+.Icon {
+    position: absolute;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.delete {
+    right: 15px;
+    top: -14px;
+}
+
+.delete:hover {
+    color: #FF5E5B
+}
+
+.check {
+    left: 15px;
+}

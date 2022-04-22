@@ -1,0 +1,20 @@
+.Create-Button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    background-color: #FF5E5B;
+    font-size: 4rem;
+    transform: rotate(0);
+    color: #ffffff;
+    align-self: flex-end;
+    margin: 0 20px 20px 0;
+    transition: all ease-in-out 300ms;
+    z-index: 1;
+    position: absolute;
+    bottom: 10px;
+}
+
+.Create-Button:hover, .Create-Button:active {
+    transform: rotate(315deg);
+}
